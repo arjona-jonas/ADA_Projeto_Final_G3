@@ -41,6 +41,8 @@ As variáveis presentes são:
 >
 > `Timestamp`, data e hora da visualização do anúncio
 >
+> `Area Income`, renda anual em dólares da região do usuário
+>
 > *Variáveis qualitativas*
 >
 > `Ad Topic Line`, texto-título do anúncio 
