@@ -47,7 +47,7 @@ O segundo procedimento foi em `Ad Topic Line`. Criamos uma nova variável com o 
 
 As variáveis `Clicked on Ad` e `Male` serão mantidas nessa formato já que elas já se encontram do jeito que desejados lidar, _dummies_ com valores 0 ou 1. Vejamos suas distribuições. Cerca de 60% dos usuários não clicaram no anúncio e 40% clicaram. A distribuição pelos sexos é bastante equilibrada, próximo do 50/50.
 
-![clicou_sexo](../../outputs/clique_e_sexo.png)
+![clicou](../../outputs/clique.png)
 
 ## Situação da base
 
