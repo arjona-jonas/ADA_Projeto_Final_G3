@@ -1,4 +1,4 @@
-## Projeto final - Ada & RD
+# Projeto final - Ada & RD
 
 Neste Notebook executamos as análises do projeto final da trilha de Dados da Ada junto com a RD. Nosso grupo (G3) e é composto por:
 * Anthony Zaneta Mattos de Avila
@@ -7,10 +7,10 @@ Neste Notebook executamos as análises do projeto final da trilha de Dados da Ad
 * Gabriel Voltani Vatanabe
 * Jonas Henrique Arjona Gonçalves Vieira
 
-### Introdução
+## Introdução
 Este é um projeto de análise de dados com técnicas de aprendizado de máquina proposto como trabalho final da trilha de Dados. Nele usamos uma base de dados de Marketing que contém informações sobre cliques e não-cliques em anúncios, bem como vários outras informações demográficas. O objetivo é um modelo preditivo capaz de melhorar o disparo de anúncios, apresentando anúncios exatamente para os possíveis compradores.
 
-### Pergunta de negócio e contexto
+## Pergunta de negócio e contexto
 Nossa empresa foi contratada para prestar consultoria para uma outra empresa de soluções Tech para negócios como:
 
 * Produção de websites;
@@ -55,13 +55,13 @@ As variáveis presentes são:
 >
 > `Clicked on Ad`, se o usuário clicou (1) ou não (0) no anúncio
 
-## Parte 1 - EDA e tratamento de dados
+# Parte 1 - Tratamento de dados
 
 Executamos o tratamento da base, procurando e removendo dados nulos e usuários menores de 18 anos (dada nossa regra de negócio).
 
 Além disso, também estudamos quais variáveis são relevantes para nossa análise, seja porque são correlacionadas com nosso alvo (o clicar no anúncio), seja porque apresentam comportamentos diferentes para cada valor (como qualitativas). 
 
-### A base
+## A base
 
 Nossa base consiste de 101.450 entradas sem nulos, mas com alguns valores negativos que não fazem sentido: renda, tempo e idade. Juntas essas entradas totalizam 6772 observações, cerca de 6,68% da base original. Optamos por removê-las já que não sabemos qual o tipo de erro causou elas.
 

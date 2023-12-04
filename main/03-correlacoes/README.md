@@ -1,4 +1,4 @@
-# Correlações
+# Parte 3 - Correlações
 
 Checaremos as correlações, considerando apenas as númericas e nossas duas *dummies*.
 

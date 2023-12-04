@@ -1,4 +1,4 @@
-# O modelo
+# Parte 4 - O modelo
 
 ## Seleção de *features* e *target*
 Para chegarmos no modelo, precisamos selecionar as features de interesse, separarmos os dados em treino e teste e fazer as devidas transformações (em Z-score ou Min-Max Scaler).
