@@ -1,6 +1,6 @@
 # Parte 5 - Comparando o modelo final com a performance original da empresa
 
-Como dito anteriormente, a base usada advém de uma tentativa anterior de disparo de anúncios que não usava uma estratégia em dados. Logo, todos os casos foram considerados como possíveis cliques mas apenas 62% deles clicaram. Com as sugestões do nosso modelo usando uma Árvore de Decisão, cerca de 86% dos usuários que indicamos o anúncio clicaram nele, um aumento percentual da taxa de acerto de 38%.
+Como dito anteriormente, a base usada advém de uma tentativa anterior de disparo de anúncios que não usava uma estratégia em dados. Logo, todos os casos foram considerados como possíveis cliques mas apenas 62% deles clicaram. Com as sugestões do nosso modelo usando uma Árvore de Decisão, cerca de 83% dos usuários que indicamos o anúncio clicaram nele, um aumento percentual da taxa de acerto de 33%.
 
 ![barras_desempenho](../../outputs/result_modelo.png)
 
