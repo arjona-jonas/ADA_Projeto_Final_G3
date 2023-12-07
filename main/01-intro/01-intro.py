@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #lendo o arquivo
-df = pd.read_csv('../../data/advertising_full.csv')
+df = pd.read_csv('../../data/data_raw.csv')
 
 #checando por nulos
 print(df.info())

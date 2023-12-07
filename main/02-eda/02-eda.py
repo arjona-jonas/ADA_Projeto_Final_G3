@@ -97,7 +97,7 @@ fig.figure.savefig('../../outputs/area-income.png',dpi=600)
 print(df.loc[:,['Ad Topic Line','City','Country']].describe())
 
 #abrindo arquivo com continentes
-continents = pd.read_csv('../../data/Countries-Continents.csv')
+continents = pd.read_csv('../../data/continents.csv')
 
 #uniao dos arquivos
 df = df.merge(continents,left_on='Country',right_on='Country',how='inner')
