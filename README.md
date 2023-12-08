@@ -58,7 +58,7 @@ pip install -r requirements. txt
 A **aDSQ** é uma empresa que presta consultoria na área de dados para outras empresas, especialmente aquelas que trabalham da área de Tech.
 
 <p align="center">
-  <img src="adsq.jpg" alt="log_adsq" width="250"/>
+  <img src="adsq.jpg" alt="log_adsq" width="300"/>
 </p>
 
 A empresa contratante nos trouxe um problema de negócio: Baixo resultado referente a disparos de anúncios. A campanha, apesar do alto valor investido, convertia em poucos cliques e compras. A estratégia NÃO FAZIA uso de dados para o direcionamento de anúncios, o que dificultava que a empresa atingisse metas de vendas.
@@ -145,7 +145,11 @@ O modelo final escolhido foi baseado em Árvore de Decisão, otimizado para maxi
 ### Matriz de Confusão:
 A matriz de confusão para os dados de teste mostra como o modelo está performando em diferentes cenários(falsos positivos, falsos negativos, verdadeiros positivos e verdadeiros negativos).
 
-[imagem da matriz] 
+<p align="center">
+  <img src="adsq.jpg" alt="matrix_modelo_treino.png" width="300"/>
+  <p align="center">
+  <img src="adsq.jpg" alt="matrix_modelo_teste.png" width="300"/>
+</p>
 
 ### Comparação com a Estratégia Original:
 
@@ -153,6 +157,9 @@ A estratégia original da empresa resultou em uma taxa de acerto/cliques de 62.1
 
 [imagem gráfico]
 
+<p align="center">
+  <img src="outputs/clique.png" alt="result_modelo.png" width="400"/>
+</p>
 
 # Considerações finais
 ### Perfil Ideal de Alvo: 
