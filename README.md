@@ -59,13 +59,97 @@ A **aDSQ** é uma empresa que presta consultoria na área de dados para outras e
 
 ![log_adsq](adsq.jpg)
 
-A empresa contratante estava com um problema de disparo de anúncios. Eles estavam investindo em disparos que acabavam não gerando muitos cliques. A estratégia aplicada não fazia uso de dados para direcionar os anúncios e toda base do disparo que renderam ou não cliques não era usada de forma consistente para melhorar os disparos.
+A empresa contratante nos trouxe um problema de negócio: Baixo resultado referente a disparos de anúncios. A campanha, apesar do alto valor investido, convertia em poucos cliques e compras. A estratégia NÃO FAZIA uso de dados para o direcionamento de anúncios, o que dificultava que a empresa atingisse metas de vendas.
 
 ![desempenho_original](outputs/clique.png)
 
-Foi solicitado que a **aDSQ** propusesse uma outra forma de selecionar os usuários que receberiam os anúncios, gerando assim economia no valor gasto e mais eficiência nos disparos. Para isso a empresa disponibilizou a base do último disparo que foi extraída pelo Google Analytics.
+Busca-se o disparo de forma mais consistente para melhora dos resultados. 
+
+Foi solicitada a análise da aDSQ que selecionaria quais usuários devem receber anúncios, gerando uma economia financeira e maior eficiência. Para isso a empresa disponibilizou uma base de dados, referente ao último disparo que foi extraída pelo Google Analytics.
 
 # Passo a passo sumarizado da solução
+## Parte 1 - EDA e Tratamento de Dados
+
+Primeiro, realizamos a Análise Exploratória de Dados (EDA) e o tratamento da base, executando, em suma:
+
+1. **Tratamento de Dados:**
+   - Remoção de dados nulos e usuários menores de 18 anos, devido a decisão de negócio.
+   - Identificação e eliminação de valores negativos não plausíveis em algumas variáveis.
+
+2. **Variáveis Relevantes:**
+   - Identificação das variáveis (features) relevantes para análise, considerando correlações com o alvo (clicar no anúncio).
+     
+|Coluna|
+|---|
+|`Daily Time Spent on Site`|float|
+|`Age`|int|
+|`Daily Internet Usage`|float|
+|`Timestamp`|indiferente já que não entra na análise|
+|`Area Income`|object|
+|`City`|object|
+|`Male`|int|
+|`Country`|object|
+|`Clicked on Ad`|int|
+     
+3. **Visualizações e Distribuições:**
+   - Análise da distribuição das variáveis numéricas com foco em identificar outliers.
+   - Exploração de variáveis qualitativas discretas, como `Ad Topic Line`, `City` e `Country`, com destaque para a criação da variável `Continent` e análise do comprimento dos títulos dos anúncios (`Ad Topic Line`).
+
+4. **Correlações:**
+   - Avaliação das correlações entre variáveis numéricas e as duas variáveis dummy (`Clicked on Ad` e `Male`).
+   - Destaque para correlações relevantes, como a negativa entre `Clicked on Ad` e `Daily Internet Usage`, e a positiva entre `Clicked on Ad` e `Age`.
+
+## Parte 2 - Modelagem Preditiva
+
+Utilizando técnicas de aprendizado de máquina (ML), prevemos se o usuário irá ou não clicar no anúncio.
+
+### Variáveis Preditivas Identificadas:
+
+- **Idade:** Usuários mais velhos têm maior propensão a clicar nos anúncios.
+- **Daily Time Spent on Site e Daily Internet Usage:** Menor tempo gasto no site ou na internet está associado a
+maior taxa de cliques.
+- **Area Income:** Usuários de áreas com renda menor tendem a clicar mais nos anúncios.
+
+### Tratamento Pré-Modelo e *Pipeline*:
+
+Para chegarmos no modelo, construímos uma *Pipeline* para selecionarmos as features de interesse. Isso foi feito ao separarmos os dados entre treino e teste, fazendo as transformações com Z-Score e Min-Max Scaler, numa proporção de 20% e 60%. 
+     
+## **Parte 3 - Árvore de Decisão**
+
+O modelo final escolhido foi baseado em Árvore de Decisão, otimizado para maximizar a precisão (*Precision*) de previsão de cliques em anúncios da empresa contratante. Aqui estão as métricas de desempenho nos conjuntos de treino e teste:
+
+**F1 Score:**
+  - Treino: 0.9142
+  - Teste: 0.8704
+
+**Accuracy:**
+  - Treino: 0.9239
+  - Teste: 0.8805
+
+**Precision:**
+  - Treino: 0.8881
+  - Teste: 0.8534
+
+**Recall:**
+  - Treino: 0.9433
+  - Teste: 0.8899
+
+**ROC AUC:**
+  - Treino: 0.9244
+  - Teste: 0.8762
+
+### Matriz de Confusão:
+A matriz de confusão para os dados de teste mostra como o modelo está performando em diferentes cenários(falsos positivos, falsos negativos, verdadeiros positivos e verdadeiros negativos).
+
+[imagem da matriz] 
+
+### Comparação com a Estratégia Original:
+
+A estratégia original da empresa resultou em uma taxa de acerto/cliques de 62.11%, enquanto, **após a aplicação do modelo de Árvore de Decisão, a taxa de acertos subiu para 86.56%**, representando um aumento percentual significativo de 38.25%. Isso destaca a eficácia do modelo em otimizar a seleção de usuários-alvo.
+
+[imagem gráfico]
+
 
 # Considerações finais
-
+### Perfil Ideal de Alvo: 
+Com base nas variáveis mais relevantes, podemos criar um perfil do usuário ideal para direcionar estratégias de marketing mais eficazes. O usuário ideal é provavelmente mais velho, gasta menos tempo diário no site e possui menor renda comparada a média local.
