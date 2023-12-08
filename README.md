@@ -94,7 +94,9 @@ Primeiro, realizamos a Análise Exploratória de Dados (EDA) e o tratamento da b
 |`Male`|int|
 |`Country`|object|
 |`Clicked on Ad`|int|
-     
+
+[Saiba mais sobre EDA aqui] (https://github.com/arjona-jonas/ADA_Projeto_Final_G3/tree/main/main/02-eda)
+
 3. **Visualizações e Distribuições:**
    - Análise da distribuição das variáveis numéricas com foco em identificar outliers.
    - Exploração de variáveis qualitativas discretas, como `Ad Topic Line`, `City` e `Country`, com destaque para a criação da variável `Continent` e análise do comprimento dos títulos dos anúncios (`Ad Topic Line`).
@@ -102,6 +104,8 @@ Primeiro, realizamos a Análise Exploratória de Dados (EDA) e o tratamento da b
 4. **Correlações:**
    - Avaliação das correlações entre variáveis numéricas e as duas variáveis dummy (`Clicked on Ad` e `Male`).
    - Destaque para correlações relevantes, como a negativa entre `Clicked on Ad` e `Daily Internet Usage`, e a positiva entre `Clicked on Ad` e `Age`.
+
+[Saiba mais sobre Correlações aqui] (https://github.com/arjona-jonas/ADA_Projeto_Final_G3/tree/main/main/03-correlacoes)
 
 ## Parte 2 - Modelagem Preditiva
 
@@ -157,6 +161,8 @@ A estratégia original da empresa resultou em uma taxa de acerto/cliques de 62.1
 <p align="center">
   <img src="outputs/result_modelo.png" alt="result_modelo.png" width="400"/>
 </p>
+
+[Saiba mais sobre nosso Modelo aqui](https://github.com/arjona-jonas/ADA_Projeto_Final_G3/tree/main/main/04-modelo)
 
 # Considerações finais
 ### Perfil Ideal de Alvo: 
