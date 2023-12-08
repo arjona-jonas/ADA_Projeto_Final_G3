@@ -64,7 +64,7 @@ A **aDSQ** é uma empresa que presta consultoria na área de dados para outras e
 A empresa contratante nos trouxe um problema de negócio: Baixo resultado referente a disparos de anúncios. A campanha, apesar do alto valor investido, convertia em poucos cliques e compras. A estratégia NÃO FAZIA uso de dados para o direcionamento de anúncios, o que dificultava que a empresa atingisse metas de vendas.
 
 <p align="center">
-  <img src="outputs/result_modelo.png" alt="desempenho_original" width="400"/>
+  <img src="outputs/clique.png" alt="desempenho_original" width="400"/>
 </p>
 
 Busca-se o disparo de forma mais consistente para melhora dos resultados. 
@@ -155,7 +155,7 @@ A matriz de confusão para os dados de teste mostra como o modelo está performa
 A estratégia original da empresa resultou em uma taxa de acerto/cliques de 62.11%, enquanto, **após a aplicação do modelo de Árvore de Decisão, a taxa de acertos subiu para 86.56%**, representando um aumento percentual significativo de 38.25%. Isso destaca a eficácia do modelo em otimizar a seleção de usuários-alvo.
 
 <p align="center">
-  <img src="outputs/clique.png" alt="result_modelo.png" width="400"/>
+  <img src="outputs/result_modelo.png" alt="result_modelo.png" width="400"/>
 </p>
 
 # Considerações finais
