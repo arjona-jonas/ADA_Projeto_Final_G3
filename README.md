@@ -57,7 +57,9 @@ pip install -r requirements. txt
 # O problema de negócios
 A **aDSQ** é uma empresa que presta consultoria na área de dados para outras empresas, especialmente aquelas que trabalham da área de Tech.
 
-![log_adsq](adsq.jpg)
+<p align="center">
+  <img src="adsq.jpg" alt="log_adsq" width="250"/>
+</p>
 
 A empresa contratante nos trouxe um problema de negócio: Baixo resultado referente a disparos de anúncios. A campanha, apesar do alto valor investido, convertia em poucos cliques e compras. A estratégia NÃO FAZIA uso de dados para o direcionamento de anúncios, o que dificultava que a empresa atingisse metas de vendas.
 
