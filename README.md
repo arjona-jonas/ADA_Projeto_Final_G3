@@ -146,9 +146,9 @@ O modelo final escolhido foi baseado em Árvore de Decisão, otimizado para maxi
 A matriz de confusão para os dados de teste mostra como o modelo está performando em diferentes cenários(falsos positivos, falsos negativos, verdadeiros positivos e verdadeiros negativos).
 
 <p align="center">
-  <img src="matrix_modelo_treino.png" alt="matrix de treino" width="300"/>
+  <img src="outputs/matrix_modelo_treino.png" alt="matrix de treino" width="300"/>
   <p align="center">
-  <img src="matrix_modelo_teste.png" alt="matrix de teste" width="300"/>
+  <img src="outputs/matrix_modelo_teste.png" alt="matrix de teste" width="300"/>
 </p>
 
 ### Comparação com a Estratégia Original:
