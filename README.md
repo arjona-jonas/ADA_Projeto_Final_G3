@@ -183,7 +183,7 @@ Com o suporte de nosso modelo, a empresa tem à sua disposição **três propost
 ### Proposta #1: Mais Rapidez
 
 - **Investimento Diário:** Mantendo o investimento diário de ~R$250,00.
-- **Resultados:** Resultados mais rápidos, com a redução de **68 dias** da campanha. 
+- **Resultados:** Resultados mais rápidos, com a redução de **52 dias** da campanha. 
 
 ### Proposta #2: Redução do Investimento
 
@@ -193,7 +193,7 @@ Com o suporte de nosso modelo, a empresa tem à sua disposição **três propost
 ### Proposta #3: Aumento de Cliques
 
 - **Investimento Diário:** Manutenção do investimento em ~R$250,00.
-- **Resultados:** Mantendo o investimento e o tempo, essa proposta **visa aumentar a quantidade de cliques**, proporcionando uma média de **16.830 cliques adicionais** ao final da campanha.
+- **Resultados:** Mantendo o investimento e o tempo, essa proposta **visa aumentar a quantidade de cliques**, proporcionando uma média de **16.590 cliques adicionais** ao final da campanha.
 
 O objetivo da aDSQ aqui é oferecer flexibilidade a empresa contratante, permitindo que a abordagem e estratégia de marketing seja adaptada a seus objetivos e possibilidades. 
 
