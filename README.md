@@ -171,8 +171,8 @@ Com base nas variáveis mais relevantes, podemos criar um perfil do usuário ide
 **Mais Velhos:**
 - Usuários mais velhos demonstram maior propensão a clicar nos anúncios, tornando-os um alvo ideal para campanhas direcionadas.
 
-**Menor Tempo Diário no Site:**
-- Indivíduos que passam menos tempo diário no site apresentam uma taxa de cliques mais elevada. Isso sugere uma estratégia eficaz de atingir esses usuários que sabem o que querem e não perdem tempo. 
+**Menor Tempo Diário no Site e Internet:**
+- Indivíduos que passam menos tempo diário online, seja no site ou na internet em geral, apresentam uma taxa de cliques mais elevada. Isso sugere uma estratégia eficaz de atingir esses usuários que sabem o que querem e não perdem tempo. 
 
 **Renda Local Inferior:**
  - Usuários com renda comparativamente menor em relação à média local tendem a ser mais receptivos aos anúncios, indicando uma oportunidade para campanhas direcionadas a esse segmento focando em, por exemplo, promoções. 
