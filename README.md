@@ -165,5 +165,39 @@ A estratégia original da empresa resultou em uma taxa de acerto/cliques de 62.1
 [Saiba mais sobre nosso Modelo aqui](https://github.com/arjona-jonas/ADA_Projeto_Final_G3/tree/main/main/04-modelo)
 
 # Considerações finais
-### Perfil Ideal de Alvo: 
-Com base nas variáveis mais relevantes, podemos criar um perfil do usuário ideal para direcionar estratégias de marketing mais eficazes. O usuário ideal é provavelmente mais velho, gasta menos tempo diário no site e possui menor renda comparada a média local.
+## Perfil Ideal de Alvo: 
+Com base nas variáveis mais relevantes, podemos criar um perfil do usuário ideal para direcionar estratégias de marketing mais eficazes. O usuário ideal é provavelmente:
+
+**Mais Velhos:**
+- Usuários mais velhos demonstram maior propensão a clicar nos anúncios, tornando-os um alvo ideal para campanhas direcionadas.
+
+**Menor Tempo Diário no Site:**
+- Indivíduos que passam menos tempo diário no site apresentam uma taxa de cliques mais elevada. Isso sugere uma estratégia eficaz de atingir esses usuários que sabem o que querem e não perdem tempo. 
+
+**Renda Local Inferior:**
+ - Usuários com renda comparativamente menor em relação à média local tendem a ser mais receptivos aos anúncios, indicando uma oportunidade para campanhas direcionadas a esse segmento focando em, por exemplo, promoções. 
+
+## Oportunidade de Negócio:
+Com o suporte de nosso modelo, a empresa tem à sua disposição **três propostas distintas**, todas com benefícios diferentes e específicos relacionados a valores, tempo e desempenho da campanha.
+
+### Proposta #1: Mais Rapidez
+
+- **Investimento Diário:** Mantendo o investimento diário de ~R$250,00.
+- **Resultados:** Resultados mais rápidos, com a redução de **68 dias** da campanha. 
+
+### Proposta #2: Redução do Investimento
+
+- **Investimento Diário:** Diminuição do investimento para ~R$188,00 diários.
+- **Resultados:** Mesmos resultados em termos de tempo e cliques, porém, com uma economia total de **R$16.740,00**.
+
+### Proposta #3: Aumento de Cliques
+
+- **Investimento Diário:** Manutenção do investimento em ~R$250,00.
+- **Resultados:** Mantendo o investimento e o tempo, essa proposta **visa aumentar a quantidade de cliques**, proporcionando uma média de **16.830 cliques adicionais** ao final da campanha.
+
+O objetivo da aDSQ aqui é oferecer flexibilidade a empresa contratante, permitindo que a abordagem e estratégia de marketing seja adaptada a seus objetivos e possibilidades. 
+
+
+
+
+
